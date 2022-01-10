@@ -25,3 +25,7 @@ perintah pada git sebagai berikut:
 git merge nama_branch
 Conflict
 adalah situasi dimana 2 branch yang tidak bisa melakukan merge yang hal tersebut terjadi apabila ketika merging 2 branch yang memiliki perubahan pada file yang sama.
+
+GUI atau Grafik User Interface 
+berupa software berbasis GUI yang digunakan untuk mempermudah dalam mengoperasikan GIT
+Nama Software tersebut adalah sourcetree
