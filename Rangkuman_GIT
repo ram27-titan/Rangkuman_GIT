@@ -1,0 +1,13 @@
+Fundamental GIT
+	Git adalah Version Control System, yang mana dapat mengelola perubahan pada setiap source code dengan melakukan perintah-perintah pada git bush here.
+	Perintah-perintah tersebut terdiri dari sebagai berikut:
+	1.git init -> Perintah untuk membuat atau menjadikan folder biasa menjadi sebuah repository
+	2.git config -> Perintah untuk mengkonfigurasi/set up user.name atau user.email secara local maupun global
+	3.git status -> Perintah untuk mengecek status file antara Untracked,staging area atau sudah di lakukan catatan perubahan.
+	4.git add . -> Perintah untuk menambahkan file source code secara keseluruhan kedalam staging area yang sebelumnya berada pada status uncracked.
+	5.git commit -m "Pesan Perubahan" -> Perintah untuk menjadikan file source code yang berada pada staging area kedalam catatan perbuahan berupa sebuah commit.
+	6.git clone ...alamat repo online -> Perintah untuk mengclone repository online pada github/gitlab kedalam repository local di laptop/komputer.
+	7.git remote adalah petunjutk atau perintah untuk menampilkan nama versi repository server global pada github/gitlab. biasanya memiliki nama default origin bisa juga bahwa git remote berupa api untuk berinteraksi dari client dengan server.
+	8.git push adalah perintah pada git untuk mengirim file source code local ke github/gitlab, sehingga mengalami perubahan yang sama dengan yang ada pada repo local.
+	9.git pull adalah perintah untuk mengambil file source code dari github/gitlab ke repository local.
+
