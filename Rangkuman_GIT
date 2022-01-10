@@ -1,6 +1,7 @@
 Fundamental GIT
-	Git adalah Version Control System, yang mana dapat mengelola perubahan pada setiap source code dengan melakukan perintah-perintah pada git bush here.
-	Perintah-perintah tersebut terdiri dari sebagai berikut:
+Git adalah Version Control System, yang mana dapat mengelola perubahan pada setiap source code dengan melakukan perintah-perintah pada git bush here.
+Perintah-perintah tersebut terdiri dari sebagai berikut:
+
 	1.git init -> Perintah untuk membuat atau menjadikan folder biasa menjadi sebuah repository
 	2.git config -> Perintah untuk mengkonfigurasi/set up user.name atau user.email secara local maupun global
 	3.git status -> Perintah untuk mengecek status file antara Untracked,staging area atau sudah di lakukan catatan perubahan.
@@ -11,3 +12,16 @@ Fundamental GIT
 	8.git push adalah perintah pada git untuk mengirim file source code local ke github/gitlab, sehingga mengalami perubahan yang sama dengan yang ada pada repo local.
 	9.git pull adalah perintah untuk mengambil file source code dari github/gitlab ke repository local.
 
+GIT Branch
+adalah sebuah Percabangan dari branch utama yang digunakan untuk menambah fitur baru tanpa menganggu jalur utama dari sebuah repository.
+	1.Git branch: melihat semua branch (local)
+	2.Git branch --all: melihat semua branch (public)
+	3.Git branch nama_branch: membuat branch baru
+	4.Git checkout nama_branch: untuk berpindah branch
+	5.Git branch -d nama_branch: untuk menghapus branch
+GIT Merge
+adalah 2 buah branch yang di gabungkan 
+perintah pada git sebagai berikut:
+git merge nama_branch
+Conflict
+adalah situasi dimana 2 branch yang tidak bisa melakukan merge yang hal tersebut terjadi apabila ketika merging 2 branch yang memiliki perubahan pada file yang sama.
